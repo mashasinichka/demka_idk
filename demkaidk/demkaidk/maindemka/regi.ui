@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>445</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLineEdit 
+{
+	background:transparent;
+	border:none;
+	color:#717072;
+	border-bottom:1px solid #717072;
+}
+*{
+	font-family:century gothic;
+	font-size:24px;
+}
+QFrame {
+	background:#333;
+	border-radius:15px;
+}
+QPushButton:hover 
+{
+	color:#333;
+	border-radius:15px;
+	background:#49ebff;
+}
+QToolButton 
+{
+	background:red;
+	border-radius:50px;
+}
+
+QPushButton 
+{
+	color:white;
+	border-radius:15px;
+}
+</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>320</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Фамилия</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>600</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton 
+{
+	background:#868eff;
+	border-radius:60px;
+}
+QToolButton 
+{
+	background:#868eff;
+	border-radius:50px;
+}
+
+QPushButton 
+{
+	color:white;
+	border-radius:15px;
+}
+QPushButton:hover 
+{
+	color:#333;
+	border-radius:15px;
+	background:#49ebff;
+}</string>
+   </property>
+   <property name="text">
+    <string>registration</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>660</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton 
+{
+	background:#868eff;
+	border-radius:60px;
+}
+QToolButton 
+{
+	background:#868eff;
+	border-radius:50px;
+}
+
+QPushButton 
+{
+	color:white;
+	border-radius:15px;
+}
+QPushButton:hover 
+{
+	color:#333;
+	border-radius:15px;
+	background:#49ebff;
+}</string>
+   </property>
+   <property name="text">
+    <string>canсel</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>320</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Пароль</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>240</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::PreventContextMenu</enum>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Логин</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>-100</x>
+     <y>-70</y>
+     <width>1001</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget
+{
+	background-color: rgb(210, 228, 255);
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Имя</string>
+   </property>
+  </widget>
+  <zorder>tableWidget</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>lineEdit_3</zorder>
+  <zorder>lineEdit_4</zorder>
+  <zorder>lineEdit</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

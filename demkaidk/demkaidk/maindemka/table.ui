@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>709</width>
+    <height>487</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QTableWidget 
+{
+	color:white;
+	background-color:#333;
+	selection-color:green;
+	font: 700 8pt &quot;Arial&quot;;
+	selection-background-color:#FF0000;
+	gridline-color:#DC143C
+}
+
+QTableWidget::item:selected
+{
+	color:white;
+	background-color:#A52A2A;
+}
+
+QHeaderView 
+{
+	border:none;
+	font: 700 8pt &quot;Arial&quot;;
+	background-color:#333;
+	color:white;
+	border:2px solid #696969;
+}
+
+QHeaderView::section 
+{
+	border:none;
+	font: 700 8pt &quot;Arial&quot;;
+	background-color:#333;
+	color:white;
+}
+*{
+	font-family:century gothic;
+	font-size:24px;
+}
+
+QFrame {
+	background:#333;
+	border-radius:15px;
+}
+
+QPushButton 
+{
+	background:red;
+	border-radius:60px;
+}
+QToolButton 
+{
+	background:red;
+	border-radius:50px;
+}
+
+QPushButton 
+{
+	color:white;
+	border-radius:15px;
+}
+
+QPushButton:hover 
+{
+	color:#333;
+	border-radius:15px;
+	background:#49ebff;
+}
+
+QLineEdit 
+{
+	background:transparent;
+	border:none;
+	color:#717072;
+	border-bottom:1px solid #717072;
+	background-color: rgb(205, 255, 247);
+}
+QWidget
+{
+	background-color: rgb(210, 228, 255);
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>370</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton 
+{
+	background:#868eff;
+	border-radius:60px;
+}
+QToolButton 
+{
+	background:#868eff;
+	border-radius:50px;
+}
+
+QPushButton 
+{
+	color:white;
+	border-radius:15px;
+}
+QPushButton:hover 
+{
+	color:#333;
+	border-radius:15px;
+	background:#49ebff;
+}</string>
+   </property>
+   <property name="text">
+    <string>add</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>370</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton 
+{
+	background:#868eff;
+	border-radius:60px;
+}
+QToolButton 
+{
+	background:#868eff;
+	border-radius:50px;
+}
+
+QPushButton 
+{
+	color:white;
+	border-radius:15px;
+}
+QPushButton:hover 
+{
+	color:#333;
+	border-radius:15px;
+	background:#49ebff;
+}</string>
+   </property>
+   <property name="text">
+    <string>delete</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>370</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton 
+{
+	background:#868eff;
+	border-radius:60px;
+}
+QToolButton 
+{
+	background:#868eff;
+	border-radius:50px;
+}
+
+QPushButton 
+{
+	color:white;
+	border-radius:15px;
+}
+QPushButton:hover 
+{
+	color:#333;
+	border-radius:15px;
+	background:#49ebff;
+}</string>
+   </property>
+   <property name="text">
+    <string>update</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>130</y>
+     <width>401</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Фамилия</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Имя</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Логин</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Пароль</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>40</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>users</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
